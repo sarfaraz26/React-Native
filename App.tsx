@@ -1,6 +1,7 @@
 import { SafeAreaView, ScrollView, StyleSheet } from "react-native";
 import FlatCards from "./components/FlatCards";
 import ScrollableCards from "./components/ScrollableCards";
+import HeroCard from "./components/HeroCard";
 
 function App()
 {
@@ -9,6 +10,7 @@ function App()
       <ScrollView>
         <FlatCards />
         <ScrollableCards />
+        <HeroCard />
       </ScrollView>
     </SafeAreaView>
   )

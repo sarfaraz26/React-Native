@@ -26,7 +26,8 @@ function FlatCards()
 const styles = StyleSheet.create({
     heading : {
         fontSize : 25,
-        padding : 8,
+        paddingTop : 20,
+        paddingHorizontal : 8,
         fontWeight : "bold"
     },
     card : {
@@ -39,6 +40,7 @@ const styles = StyleSheet.create({
     },
     cardContainer : {
         flexDirection : "row",
+        marginTop : 10
     }
 })
 
