@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         fontSize : 25,
         paddingTop : 20,
         paddingHorizontal : 8,
-        fontWeight : "bold"
+        fontWeight : "bold",
     },
     card : {
         borderRadius : 10,
