@@ -1,23 +1,15 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 
 function FlatCards()
 {
     return(
         <View>
-            <Text style={styles.heading}>Flat Cards</Text>
+            <Text style={styles.heading}>Static Cards</Text>
             <View style={styles.cardContainer}>
-                <View style={[styles.card, {backgroundColor : "red"}]}>
-                    <Text>First</Text>
-                </View>
-                <View style={[styles.card, {backgroundColor : "yellow"}]}>
-                    <Text>Second</Text>
-                </View>
-                <View style={[styles.card, {backgroundColor : "orange"}]}>
-                    <Text>Third</Text>
-                </View>
-                <View style={[styles.card, {backgroundColor : "pink"}]}>
-                    <Text>Fourth</Text>
-                </View>
+                <Image style={styles.card} source={{uri : "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/Antony-Starr-as-Homelander-in-The-Boys.jpg"}}/>
+                <Image style={styles.card} source={{uri : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbeEn8IeNFv67i6Gsye0H41CsIMfFt1N-aUQ&s"}}/>
+                <Image style={styles.card} source={{uri : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR77wHlbSXMVCMtV3_XALcmwbp29iLW4-xaaQ&s"}}/>
+                <Image style={styles.card} source={{uri : "https://upload.wikimedia.org/wikipedia/en/b/b7/Billy_Butcher.jpg"}}/>
             </View>
         </View>
     )
@@ -31,11 +23,9 @@ const styles = StyleSheet.create({
         fontWeight : "bold"
     },
     card : {
-        justifyContent : "center",
-        alignItems : "center",
         borderRadius : 10,
         height : 100,
-        width : "20%",
+        width : 100,
         marginHorizontal : 8,
     },
     cardContainer : {

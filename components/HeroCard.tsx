@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     heroCardTitle : {
         fontSize : 23,
         fontWeight : "bold",
-        // color : "gray",
+        color : "gray",
         paddingHorizontal : 10,
         paddingTop : 5
     },
