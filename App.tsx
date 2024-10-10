@@ -3,6 +3,7 @@ import FlatCards from "./components/FlatCards";
 import ScrollableCards from "./components/ScrollableCards";
 import HeroCard from "./components/HeroCard";
 import BlogCards from "./components/BlogCards";
+import ContactList from "./components/ContactList";
 
 function App()
 {
@@ -13,6 +14,7 @@ function App()
         <ScrollableCards />
         <HeroCard />
         <BlogCards />
+        <ContactList/>
       </ScrollView>
     </SafeAreaView>
   )
