@@ -9,7 +9,7 @@ const BlogCards = () => {
 
     async function btnShareClick()
     {
-        const url : string = "http://wwwdragonballzcom/"
+        const url : string = "http://www.dragonballz.com/"
         const isSupportedLink : boolean =  await Linking.canOpenURL(url);
 
         if(isSupportedLink)
